@@ -1,4 +1,4 @@
-function doc(i, j, value) {
+function Condition1(i, j, value) {
     let check = 1;
     let before = 1;
     let after = 1;
@@ -33,7 +33,7 @@ function doc(i, j, value) {
     }
 }
 
-function ngang(i, j, value) {
+function Condition2(i, j, value) {
     let check = 1;
     let before = 1;
     let after = 1;
@@ -68,7 +68,7 @@ function ngang(i, j, value) {
     }
 }
 
-function cheo(i, j, value) {
+function Condition3(i, j, value) {
     let check = 1;
     let before = 1;
     let after = 1;
@@ -103,7 +103,7 @@ function cheo(i, j, value) {
     }
 }
 
-function cheo2(i, j, value) {
+function Condition4(i, j, value) {
     let check = 1;
     let before = 1;
     let after = 1;
@@ -148,8 +148,8 @@ function alertWin() {
 }
 
 function SetWin(i, j, value) {
-    doc(i, j, value);
-    ngang(i, j, value);
-    cheo(i, j, value);
-    cheo2(i, j, value);
+    Condition1(i, j, value);
+    Condition2(i, j, value);
+    Condition3(i, j, value);
+    Condition4(i, j, value);
 }
